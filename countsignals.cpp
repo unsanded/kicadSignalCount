@@ -1,5 +1,3 @@
-
-
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -52,7 +50,6 @@ int main(int argc, char* argv[]){
 
 	while(input.good()){
 		lineCount++;
-		debug << '.';
 		input.ignore(1000, '(');
 		test = "i am finally done";
 		input >> test;
